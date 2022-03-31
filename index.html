@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Number Guesing Game</title>
+</head>
+<body>
+    <h1>Number guessing game</h1>
+
+    <p>Memilih angka acak antara 1 dan 100.</p>
+    <p>kamu haru menebaknya dalam 10 kali percobaan.</p>
+    <p>Kami akan memberitahu kalau apakah angka yang anda masukkan</p>
+    <p>kecil atau besar.</p>
+
+    <div class="form">
+      <label for="guessField">Enter a guess: </label>
+      <input type="text" id="guessField" class="guessField">
+      <input type="submit" value="Submit guess" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
